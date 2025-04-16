@@ -1,0 +1,15 @@
+\\ Graph
+\\ useful libraries #include <unordered_map>
+\\                  #include <vector>
+
+\\ example 1: Marque
+vector<bool> visited(n, false);
+\\ example 2: classic graphs
+#include <vector>
+using namespace std;
+vector<vector<int>> graph(n);
+\\ example 3: non-digit graphs
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+unordered_map<string, vector<string>> edge;
